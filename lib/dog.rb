@@ -8,3 +8,7 @@ def name #'name' method - responsible for reporting/reading the name (getting)
 end
 
 end
+
+lassie = Dog.new 
+lassie.name = "Lassie"
+lassie.name 
